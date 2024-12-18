@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Record Management</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Record Management</h1>
+        
+        <div class="form-section">
+            <form id="studentForm">
+                <input type="text" id="name" placeholder="Student Name" >
+                <input type="number" id="rollNo" placeholder="Roll Number" >
+                <input type="text" id="grade" placeholder="Grade" >
+                <button class="btn" "submit">Add Student</button>
+            </form>
+        </div>
+
+        <div class="table-section">
+            <table id="studentTable">
+                <thead>
+                    <tr><th>image</th>
+                        <th>Name</th>
+                        <th>Roll No</th>
+                        <th>Grade</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
